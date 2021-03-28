@@ -68,7 +68,7 @@ function winGame() {
         remove();
       }, 1500);
       mainBlock.removeEventListener("click", newGame);
-      ++playerFirstPoints.innerHTML;
+      playerFirstPoints.innerHTML++;
     } else if (
       boxes[arrWin[i][0]].classList.contains("o") &&
       boxes[arrWin[i][1]].classList.contains("o") &&
@@ -82,7 +82,7 @@ function winGame() {
         remove();
       }, 1500);
       mainBlock.removeEventListener("click", newGame);
-      ++playerSecondPoints.innerHTML;
+      playerSecondPoints.innerHTML++;
     } else if (step === 9) {
       setTimeout(() => {
         winAudio.play();
