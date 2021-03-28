@@ -38,6 +38,17 @@ body {
   float: left;
 }
 
+@media screen and (max-width: 800px) {
+  body {
+    width: auto;
+  }
+  .game {
+    width: 300px;
+    height: 300px;
+    left: 30%;
+  }
+}
+
 .box {
   width: 33.333333333%;
   height: 33.333333333%;
